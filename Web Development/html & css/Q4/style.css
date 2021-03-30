@@ -1,0 +1,123 @@
+body
+{
+    background-color: #838383;
+    border: 20px;
+}
+.header
+{
+
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #221f3b;
+
+}
+.insideheader
+{
+  position: relative;
+  left: 320px;
+  padding: 15px;
+  display: inline-block;
+  border: none;
+}
+.buttonclass
+{
+  color:#f6f6f6;
+  font-style: oblique;
+  font-size: 15px;
+  background-color: #888888;
+  padding: 15px;
+  border-radius: 30px;
+}
+.loginclass
+{
+  font-size: 20px;
+  border-radius: 30px;
+  box-shadow: 1px;
+  box-shadow: 7px 10px 9px #888888;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: inline-block;
+  position: relative;
+  left: 420px;
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+.writtenclass
+{
+  position: absolute;
+  left: 550px;
+  top: 300px;
+
+}
+h1,h3
+{
+  color: #3e978b;
+  text-align: center;
+}
+.head
+{
+  font-family: 'Kaushan Script', cursive;
+  color: #f6f6f6;
+  font-size: 70px;
+}
+.head1
+{
+  font-family: 'Permanent Marker', cursive;
+  color: #f6f6f6;
+  font-size: 20px;
+}
+.tableclass
+{
+  margin: 10px;
+  background-color:#f6f6f6;
+}
+
+.divclass1
+{
+  position: absolute;
+  left: 250px;
+  top: 1870px;
+  display: inline-block;
+  margin: 30px;
+}
+.divclass2
+{
+  position: absolute;
+  left: 550px;
+  top: 1870px;
+  display: inline-block;
+  margin: 30px;
+}
+.divclass3
+{
+  position: absolute;
+  left: 750px;
+  top: 1870px;
+  display: inline-block;
+  margin: 30px;
+}
+.divclass4
+{
+  position: absolute;
+  left: 1050px;
+  top: 1870px;
+  display: inline-block;
+  margin: 30px;
+}
+.footer1{
+  display: inline-block;
+}.icone1
+{
+  display: inline-block;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.f1
+{
+  color: #3c2c3e;
+}
+hr
+{
+  margin: 20px;
+}
