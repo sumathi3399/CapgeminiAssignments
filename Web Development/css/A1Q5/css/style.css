@@ -1,0 +1,10 @@
+table, thead, tbody,td
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.b
+{
+  text-align: center;
+  font-weight: bold;
+}

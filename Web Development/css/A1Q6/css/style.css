@@ -1,0 +1,11 @@
+table, thead, tbody,td
+{
+  border: 1px solid green;
+  
+}
+.b
+{
+  text-align: center;
+  font-weight: bold;
+  background-color: green;
+}
