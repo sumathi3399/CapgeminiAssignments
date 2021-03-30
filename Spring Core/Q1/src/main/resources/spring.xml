@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+    
+    <!-- 1st Question -->
+    <!-- Setter Injection 
+    <bean id="customer" class="capgeminiAssignments.Customer">
+         <property name="customerId" value="1"/>
+         <property name="customerName" value="Arun"/>
+         <property name="customerNumber" value="1435697482"/>
+         <property name="customerAddress" ref="address"/> 
+    </bean> -->
+    
+    <!-- constructor Injection -->
+    <bean id="customer" class="capgeminiAssignments.Customer">
+         <constructor-arg value="1"/>
+         <constructor-arg value="Smily"/>
+         <constructor-arg value="1435697482"/>
+         <constructor-arg ref="address"/> 
+    </bean> 
+    
+    <bean id="address" class="capgeminiAssignments.Address">
+         <property name="street" value="Vijayawada"/> 
+         <property name="city" value="Vijayawada"/> 
+         <property name="state" value="AP"/> 
+         <property name="zipcode" value="5200001"/> 
+         <property name="country" value="India"/>  
+    </bean>
+
+</beans>
