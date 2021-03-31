@@ -19,8 +19,8 @@ public class LoginRESTController {
 		 * we can add more admins too
 		 */
 		UserLogin admin1 = new UserLogin();
-		admin1.setUsername("sagar");
-		admin1.setPassword("admin");
+		admin1.setUsername("smily");
+		admin1.setPassword("smilyV");
 		
 		// validation
 		if(user9.getUsername().equals(admin1.getUsername())){
